@@ -1,0 +1,7 @@
+package org.vikas.AlarmSystem;
+
+public interface Subject {
+    public void registerObserver(Observer o);
+    public void removeObserver(Observer o);
+    public void notifyObservers(Event event);
+}
